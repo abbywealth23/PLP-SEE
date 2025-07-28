@@ -1,6 +1,5 @@
-# A simple Calculator that ask users for input of two figures and operator.
-# ask user to enter a the figures and the operator
-
+# A simple Calculator that ask users for input of two figures and an operator.
+# ask user to enter the figures and the operator
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
 operator = (input("Enter the operator (-, +, x, /): "))
