@@ -16,7 +16,7 @@ elif operator == "-":
         print("Done")
 elif operator == "/":
         if num2 != 0:
-                division = num1 / num2     
+                division = num1 / num2  #Division  
                 print(f"{num1} / {num2} = {division}")   
                 print("Done")
         else:
