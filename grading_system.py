@@ -1,20 +1,21 @@
-#Ask a ueer to ipput a ccore
-score = int(input("entersstueent score(0 - 100):  "))
+# A simple grading system that ouputs the grades of college students
+#Prompt usser to enter a score from 0 - 100
 
-if score >= 90:
-    grade = 'A'
+Student_score = float(input("Enter the student's score (0 -100): ")) #this part ask the user a score
 
-elif score >= 80:
-    grade = 'B'
-
-elif score >= 70:
-    grade = 'C'
-
-elif score >= 60:
-    grade = 'D'
-
-else: 
-    grade = 'F'
-
-#print the result
-print(f"The students grade is: {grade}")
+#conditions for outputing grade
+if Student_score > 75:
+    print("You have done well!")
+    print("Your grade is 'A'")
+elif Student_score > 65:
+    print("You did great!")
+    print("Your grade is 'B'")
+elif Student_score > 55 :
+    print("You have tried!")
+    print("Your grade is 'C'")
+elif Student_score > 40:
+     print("You need to put more effort")
+     print("Your grade is 'D'")
+else:
+    print("You have scored low")
+    print("You Fail")
