@@ -1,10 +1,10 @@
-Move = float(input("Enter a multiple of 5 to move the car: "))
-while Move % 5 != 0 :
-    Move = float(input("Enter a multiple of 5 to move the car: "))
-else:
-    print(Move, "is moving the car")
+# A calculator that determines if a year is a leap year 
+# Ask a user to enter a year
 
-details = {"name:" "wealth", "age:" "23", "grade:" "23"}
-for i in details: 
-    print([2])        
-    
+new_year = int(input("Enter the year: "))
+
+if new_year % 4 == 0: 
+    print(new_year, "is a leap year")
+else:
+    print(new_year, "is not a leap year")
+
